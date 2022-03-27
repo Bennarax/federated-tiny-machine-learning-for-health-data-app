@@ -1,0 +1,10 @@
+fr/delcey/machine_learning/BuildConfig.java
+ fr.delcey.machine_learning.BuildConfig
+fr/delcey/machine_learning/MainActivity.java
+ fr.delcey.machine_learning.MainActivity
+ fr.delcey.machine_learning.MainActivity$1
+ fr.delcey.machine_learning.MainActivity$2
+ fr.delcey.machine_learning.MainActivity$3
+ fr.delcey.machine_learning.MainActivity$4
+fr/delcey/machine_learning/ResultActivity.java
+ fr.delcey.machine_learning.ResultActivity

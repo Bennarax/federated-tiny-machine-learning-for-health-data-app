@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompleteDatasetActivity">
+
+    <TextView
+        android:id="@+id/predict_menu_textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/teal_700"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/complete_dataset_menu_textview_title" />
+
+    <TextView
+        android:id="@+id/predict_menu_explanation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/complete_dataset_menu_textview_explanation" />
+
+    <Button
+        android:id="@+id/button_predict_menu_to_angiographic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_to_angiographic" />
+
+    <Button
+        android:id="@+id/button_predict_menu_to_anaemia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_to_anaemia" />
+
+    <Button
+        android:id="@+id/button_predict_to_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="@string/button_back_to_main_menu" />
+
+</LinearLayout>

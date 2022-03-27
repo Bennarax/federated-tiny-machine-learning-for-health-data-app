@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Heart disease ML app</string>>
+
+
+    <string name="main_menu_textview_title">Menu of the heart disease ML application</string>
+    <string name="predict_menu_textview_title">Menu for predictions</string>
+    <string name="complete_dataset_menu_textview_title">Menu to complete a dataset</string>
+
+    <string name="button_to_predict_menu">Get predictions</string>
+    <string name="button_to_complete_dataset_menu">Complete a dataset</string>
+
+    <string name="button_back_to_main_menu">Return to the first menu</string>
+    <string name="button_back_to_predict_menu">Return to the menu for predictions</string>
+    <string name="button_back_to_complete_dataset_menu">Return to the first menu to complete a dataset</string>
+
+
+    <string name="predict_menu_textview_explanation">Select the disease to predict</string>
+    <string name="complete_dataset_menu_textview_explanation">Select the disease for which you want to complete the dataset</string>
+
+
+    <string name="button_to_angiographic">angiographic</string>
+    <string name="button_to_anaemia">anaemia</string>
+
+
+    <string name="angiographic_textview_title">Form for angiographic prediction</string>
+
+    <string name="angiographic_textview_chol">Serum cholestoral (in mg/dl)</string>
+    <string name="angiographic_editview_chol">Please enter the serum cholestoral</string>
+
+    <string name="angiographic_textview_thalach">Maximum heart rate achieved</string>
+    <string name="angiographic_editview_thalach">Please enter the maximum heart rate achieved</string>
+
+    <string name="angiographic_textview_trestbps">Resting blood pressure (in mm Hg on admission to the hospital)</string>
+    <string name="angiographic_editview_trestbps">Please enter the resting blood pressure</string>
+
+
+    <string name="anaemia_textview_title">Form for anaemia prediction</string>
+
+    <string name="anaemia_textview_platelets">The quantity of platelets in the blood (kiloplatelets/mL)</string>
+    <string name="anaemia_editview_platelets">Please enter the quantity of platelets</string>
+
+
+    <string name="button_get_result">Get result</string>
+
+    <string name="textview_result">Result :</string>
+</resources>

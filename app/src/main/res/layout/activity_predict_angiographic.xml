@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AngiographicPredictActivity">
+
+    <TextView
+        android:id="@+id/angiographic_textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/angiographic_textview_title" />
+
+    <TextView
+        android:id="@+id/angiographic_textview_chol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@color/teal_700"
+        android:text="@string/angiographic_textview_chol" />
+
+    <EditText
+        android:id="@+id/angiographic_edittext_chol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/teal_200"
+        android:hint="@string/angiographic_editview_chol" />
+
+    <TextView
+        android:id="@+id/angiographic_textview_thalach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@color/teal_700"
+        android:text="@string/angiographic_textview_thalach" />
+
+    <EditText
+        android:id="@+id/angiographic_edittext_thalach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/teal_200"
+        android:hint="@string/angiographic_editview_thalach" />
+
+    <TextView
+        android:id="@+id/angiographic_textview_trestbps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@color/teal_700"
+        android:text="@string/angiographic_textview_trestbps" />
+
+    <EditText
+        android:id="@+id/angiographic_edittext_trestbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/teal_200"
+        android:hint="@string/angiographic_editview_trestbps" />
+
+    <Button
+        android:id="@+id/angiographic_button_get_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/button_get_result" />
+
+    <TextView
+        android:id="@+id/angiographic_textview_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/textview_result" />
+
+    <Button
+        android:id="@+id/button_angiographic_to_predict_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/button_back_to_predict_menu" />
+
+</LinearLayout>
